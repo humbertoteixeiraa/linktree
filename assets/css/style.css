@@ -8,6 +8,7 @@
     font-family: 'Karla', sans-serif;
 }
 
+/* Usando variáveis para aplicar cores */
 :root {
     --bgcolor : #1C1C1C;
     --accentcolor: #FFCC00;
@@ -22,8 +23,8 @@ body {
     flex-direction: column;
     align-items: center;
     width: 90vw;
-    margin: 40px auto;
-    gap: 20px;
+    margin: 40px auto; /*Margens vertical e horizontal, respectivamente*/
+    gap: 20px; /*Define o espaçamento entre linhas e colunas*/
 }
 .link-tree img {
     width: 150px;
@@ -41,11 +42,11 @@ body {
     padding: 15px;
     text-decoration: none;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase; /*Deixa todo o texto maiúsculo*/
     font-size: 1.1rem;
     font-weight: bold;
     border: solid 2px var(--accentcolor);
-    transition: all 0.5s linear;
+    transition: all 0.2s linear;
 }
 
 .link-tree a:hover {
